@@ -210,12 +210,13 @@ function Home() {
                                                 className="btn btn-outline-dark" type="button">View
                                                 Project</a>
                                         </div>
-                                        <p className="readmore" style={{ "float": "right", "textDecoration": "none" }}>Read more...</p>
+                                        <a href="#" target="__blank"
+                                            className="readmore" style={{ "float": "right", "textDecoration": "none" }}>Read more...</a>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 my-2">
-                                <div className="card" id="noteCard">
+                                <div className="card cards" id="calCard"style={{ "zIndex": "4" }}>
                                     <img src={window.location.origin + "/img/auto.png"} className="card-img-top proj-img w-100" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title">Automatic Email Sender</h5>
@@ -233,7 +234,7 @@ function Home() {
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 my-2">
-                                <div className="card" id="calCard">
+                                <div className="card cards" id="calCard"style={{ "zIndex": "4" }}>
                                     <img src={window.location.origin + "/img/weatherapp.png"} className="card-img-top proj-img w-100" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title">Weather App</h5>
@@ -249,15 +250,13 @@ function Home() {
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 my-2">
-                                <div className="card" id="calCard">
+                                <div className="card cards" id="calCard" style={{ "zIndex": "4" }}>
                                     <img src={window.location.origin + "/img/mypostman.png"} className="card-img-top proj-img w-100" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title">My Postman Api</h5>
                                         <p className="card-text">fully featured Postman Api. user can perform GET,POST,PUT,PATCH API requests on any supported API.Response is customized using advanced css features ex.(prism.css)</p>
                                         <div className="btn-parent" style={{ "height": "50px" }}>
-                                            <a href="https://POSTMASTER-TO-GET-AND-POST-REQUEST-USING-JAVASCRIPTNG.santoshzore.repl.co
-
-" target="__blank"
+                                            <a href="https://POSTMASTER-TO-GET-AND-POST-REQUEST-USING-JAVASCRIPTNG.santoshzore.repl.co" target="__blank"
                                                 className="btn btn-outline-dark" type="button">View Project</a>
                                         </div>
                                         <a href="https://github.com/SANTOSHZORE123/POSTMASTER" target="__blank" className="readmore"
@@ -266,7 +265,7 @@ function Home() {
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 my-2">
-                                <div className="card" id="calCard">
+                                <div className="card cards" id="calCard" style={{ "zIndex": "4" }}>
                                     <img src={window.location.origin + "/img/TextUtils.png"} className="card-img-top proj-img w-100" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title">TextUtils App</h5>
@@ -280,9 +279,9 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className="col-12 col-md-6 my-2 dummy" id="dummy6">
-                                <div className="card cards">
+                                <div className="card cards"style={{ "zIndex": "4" }}>
                                     <img src={window.location.origin + "/img/calculater.png"} className="card-img-top proj-img w-100" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title">calculator</h5>
@@ -300,7 +299,7 @@ function Home() {
                             </div >
 
                             <div className="col-12 col-md-6 my-2 dummy" id="dummy5">
-                                <div className="card cards">
+                                <div className="card cards" style={{ "zIndex": "4" }}>
                                     <img src={window.location.origin + "/img/noteapp.png"} className="card-img-top proj-img w-100" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title">Note Taking App</h5>
@@ -308,7 +307,7 @@ function Home() {
                                             Bootstrap.Where we can Read ,Write and Delete notes which are Store in Your
                                             Local
                                             Storage.</p>
-                                            <div className="btn-parent" style={{ "height": "50px" }}>
+                                        <div className="btn-parent" style={{ "height": "50px" }}>
                                             <a href="https://magic-notes.santoshzore.repl.co"
                                                 target="__blank" className="btn btn-outline-dark" type="button">View
                                                 Project</a>
@@ -318,9 +317,9 @@ function Home() {
                                     </div>
                                 </div>
                             </div >
-                            
+
                             <div className="col-12 col-md-6 my-2 dummy" id="dummy4">
-                                <div className="card cards">
+                                <div className="card cards" style={{ "zIndex": "4" }}>
                                     <img src={window.location.origin + "/img/portfolio.png"} className="card-img-top proj-img w-100" alt="..." />
                                     <div className="card-body">
                                         <h5 className="card-title">portfolio</h5>
@@ -328,7 +327,7 @@ function Home() {
                                             node.js,Express.ja,hbs
                                             and MongoDB Atlas as a Database.where you contact me, Download my Resume.</p>
                                         <div className="btn-parent" style={{ "height": "50px" }}>
-                                            <a href="https://santoshzore.onrender.com/"
+                                            <a href="https://portfolio-santosh-zore.onrender.com/"
                                                 target="__blank" className="btn btn-outline-dark" type="button">View
                                                 Project</a>
                                         </div>
